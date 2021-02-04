@@ -27,6 +27,8 @@ FlappyMonster.prototype.start = function() {
 };
 
 FlappyMonster.prototype.start = function() {
+  // Base
+  var game = this;
    switch (game.currentState) {
     case INITIAL:
       // DRAW INITIAL SCREEN
